@@ -1,0 +1,47 @@
+# Task data and local diagnostics
+.tmp/
+*.log
+
+# Dependencies and generated output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Real environment configuration; allow safe templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# VPN credentials and local configuration
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+*.mobileconfig
+
+# System and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local AI tool settings
+.codex/
+.claude/
+.cursor/
+.aider*
